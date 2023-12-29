@@ -139,3 +139,52 @@ footer .social-icons {
 footer > p {
   text-align: center;
 }
+
+@media screen and (max-width: 1000px) {
+  footer {
+    padding: 10px;
+  }
+
+  footer .main {
+    padding: 0;
+  }
+
+  .upper-head input {
+    margin: 0 20px 0 auto;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .upper-head {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .upper-head input {
+    margin: unset;
+  }
+
+  .hero-container {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .bottom-head nav {
+    width: unset;
+    padding: 0;
+    margin: unset;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .bottom-head nav a {
+    width: 100px;
+    text-align: center;
+  }
+
+  .hero-container {
+    width: unset;
+    padding: 20px;
+  }
+}

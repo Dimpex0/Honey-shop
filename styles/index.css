@@ -1,5 +1,5 @@
 .bottom-head {
-  height: 400px;
+  min-height: 400px;
   background: center / cover no-repeat url("/images/index\ page/hero-img.jpg");
 }
 
@@ -125,5 +125,17 @@
 
   .card-info p {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .info-section {
+    padding: 20px 10px;
   }
 }
