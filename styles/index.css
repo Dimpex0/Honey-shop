@@ -1,0 +1,92 @@
+.info-section {
+  background: center / cover no-repeat url("/images/index\ page/info-img.jpg");
+  padding: 20px 60px;
+}
+
+.info-section h2 {
+  text-align: center;
+  font-family: "ff-meta-correspondence-web-p", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+  font-style: normal;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  text-shadow: 1px 1px black;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.card {
+  background-color: rgb(236, 187, 9);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 0 50px;
+  width: 50%;
+  height: 220px;
+  border-radius: 6px;
+}
+
+.card-icon-container {
+  width: 200px;
+  text-align: center;
+  color: white;
+}
+
+.card-icon-container i {
+  font-size: 70px;
+}
+
+.card-heading {
+  font-family: "ff-meta-correspondence-web-p", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: rgb(115, 75, 23);
+  margin-bottom: 12px;
+  text-shadow: 1px 1px black;
+}
+
+.card-text {
+  font-family: "aptly", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: black;
+  width: 80%;
+}
+
+.card-btn {
+  display: block;
+  width: 80px;
+  text-decoration: underline;
+  margin-left: auto;
+  cursor: pointer;
+  transition: 150ms;
+}
+
+.card-btn:hover {
+  color: white;
+}
+
+.card:nth-child(2) {
+  background-color: rgb(200, 121, 17);
+}
+
+.card:nth-child(2) .card-heading {
+  color: rgb(233, 207, 111);
+}
+
+.card:nth-child(2) .card-text {
+  color: white;
+}
