@@ -1,0 +1,80 @@
+main {
+  background: center / cover no-repeat
+    url("/images/products\ page/background.jpg");
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 100px 0;
+  width: 60%;
+  margin: auto;
+}
+
+.card {
+  background-color: white;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid rgb(173, 105, 16);
+}
+
+.card-image-container {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img {
+  width: 100%;
+  max-height: 100%;
+}
+
+.card-title {
+  text-align: center;
+  font-family: "ff-meta-correspondence-web-p", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.card-price {
+  font-size: 22px;
+  color: rgb(173, 105, 16);
+  font-family: sans-serif;
+}
+
+.card-btn {
+  font-family: "ff-meta-correspondence-web-p", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(236, 187, 9);
+  padding: 5px 10px;
+  width: 80px;
+  text-align: center;
+  transition: 300ms;
+}
+
+.card-btn:hover {
+  background-color: rgb(173, 105, 16);
+}
