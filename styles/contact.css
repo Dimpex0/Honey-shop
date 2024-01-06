@@ -88,6 +88,12 @@ main {
   font-family: "ff-meta-correspondence-web-p", sans-serif;
   font-weight: 400;
   border-radius: 6px;
+  color: white;
+  transition: 300ms;
+}
+
+.contact-form form button:hover {
+  background-color: rgb(173, 105, 16);
 }
 
 .contact-map {
